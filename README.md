@@ -31,7 +31,7 @@ Run the application using the following command:
 ```sh
 python app.py
 ```
-This will launch a Gradio interface in your browser. You can then ask questions about my resume.
+This will launch a Gradio interface in your browser. You can then ask questions about my resume!
 
 ## Deployment
 
