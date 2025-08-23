@@ -15,4 +15,4 @@ jobs:
         uses: huggingface/actions/space-push@v2
         with:
           hf_token: ${{ secrets.HF_TOKEN }}
-          space_id: alistermarc/resume-chatbot
+          space_id: alistermarc/resume_chatbot
