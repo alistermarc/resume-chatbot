@@ -57,7 +57,7 @@ class Chatbot:
 
         messages = [{"role": "system", "content": self.system_prompt()}] + cleaned_history + [{"role": "user", "content": message}]
         
-        response = self.client.chat.completions.create(model="llama-3.1-8b-instant", messages=messages, tools=tools)
+        response = self.client.chat.completions.create(model="openai/gpt-oss-20b", messages=messages, tools=tools)
         response_message = response.choices[0].message
 
         if response_message.tool_calls:
