@@ -1,4 +1,4 @@
-# Alister's Resume Chatbot
+# My Resume Chatbot
 
 This is a chatbot that can answer questions about my resume, skills, and experience.
 
